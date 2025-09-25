@@ -1,0 +1,196 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fffaf5;
+    color: #333;
+    padding: 0 20px;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    background-color: #d4af37; /* gold tone */
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+section
+{
+  cursor: default;
+}
+
+/* Product Page */
+.product .boxc
+{
+  border: 0px solid red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 3fr));
+  gap: 1rem;
+  padding: 2rem 2%;
+  height: 100%;
+}
+.product .boxc a 
+{
+  text-decoration: none;
+}
+
+.product .boxc .box
+{
+  border: 0px solid var(--light-color);
+  background: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  transition: .2s linear;
+  height: auto;
+  padding: 0rem 0;
+  transition: 1s;
+}
+.product .boxc .box:hover
+{
+  box-shadow: 1px 1px 10px 4px green;
+  transform: scale(1.02);
+}
+.product .boxc .box .b1
+{
+  width: 100%;
+  height: 232px;
+  border-radius: 0.5rem 0.5rem 0 0;
+  border: 0px;
+}
+.product .boxc .box .b1 img
+{
+  width: 100%;
+  height: 232px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.product .boxc .box .b2
+{
+  border: 1px solid ;
+  width: 100%;
+  height: 68px;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.product .boxc .box .b2 p 
+{
+  font-size: 1.2rem;
+  color: var(--light-color);
+  line-height: 0.9rem;
+  margin-top: 15px;
+}
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.btn
+        {
+            color: white;
+            border: 0;
+            outline: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100px;
+            height: 25px;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+/* Admin Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    height: auto;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    height: auto;
+}
+
+table th {
+    background-color: #f4f4f4;
+    color: #444;
+    height: auto;
+}
+
+a.button, button {
+    padding: 10px 15px;
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+}
+
+a.button:hover, button:hover {
+    background-color: #b8902e;
+}
+
+/* Homepage, About, Contact */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    height: auto;
+}
